@@ -1,4 +1,4 @@
-<TS language="sk" version="2.0">
+<TS language="sk" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -3170,6 +3170,10 @@ https://www.transifex.com/projects/p/dynamic/</translation>
         <translation>Min množstvo</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Kopírovať adresu</translation>
     </message>
@@ -3353,8 +3357,8 @@ https://www.transifex.com/projects/p/dynamic/</translation>
         <translation>Vykonaj príkaz, ak zmeny v najlepšom bloku (%s v príkaze nahradí blok hash)</translation>
     </message>
     <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>V tomto móde -genproclimit kontroluje počet blokov, ktoré sú vygenerované okamžite.</translation>
+        <source>In this mode -genproclimit-cpu controls how many blocks are generated immediately.</source>
+        <translation>V tomto móde -genproclimit-cpu kontroluje počet blokov, ktoré sú vygenerované okamžite.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least 10 confirmations, you might need to wait a few minutes and try again.</source>

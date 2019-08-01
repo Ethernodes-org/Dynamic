@@ -1,4 +1,4 @@
-<TS language="zh_CN" version="2.0">
+<TS language="zh_CN" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -3158,6 +3158,10 @@ https://www.transifex.com/projects/p/dynamic/</translation>
     <message>
         <source>Min amount</source>
         <translation>最小金额</translation>
+    </message>
+    <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
     </message>
     <message>
         <source>Copy address</source>

@@ -1,4 +1,4 @@
-<TS language="it" version="2.0">
+<TS language="it" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -3013,6 +3013,10 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Importo minimo</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Copia l'indirizzo</translation>
     </message>
@@ -3192,8 +3196,8 @@ Più URL vengono separati da una barra verticale |.</translation>
         <translation>Esegui il comando quando il migliore blocco cambia(%s nel cmd è sostituito dall'hash del blocco)</translation>
     </message>
     <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>In questa modalità -genproclimit determina quanti blocchi saranno generati immediatamente.</translation>
+        <source>In this mode -genproclimit-cpu controls how many blocks are generated immediately.</source>
+        <translation>In questa modalità -genproclimit-cpu determina quanti blocchi saranno generati immediatamente.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least 10 confirmations, you might need to wait a few minutes and try again.</source>

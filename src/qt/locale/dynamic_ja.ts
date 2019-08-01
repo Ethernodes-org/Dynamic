@@ -1,4 +1,4 @@
-<TS language="ja" version="2.0">
+<TS language="ja" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -2346,6 +2346,10 @@
     <message>
         <source>Min amount</source>
         <translation>最小の額</translation>
+    </message>
+    <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
     </message>
     <message>
         <source>Copy address</source>

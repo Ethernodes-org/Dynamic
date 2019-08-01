@@ -1,4 +1,4 @@
-<TS language="fr" version="2.0">
+<TS language="fr" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -3175,6 +3175,10 @@ https://www.transifex.com/projects/p/dynamic/</translation>
         <translation>Montant min.</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Copier l’adresse</translation>
     </message>
@@ -3358,8 +3362,8 @@ https://www.transifex.com/projects/p/dynamic/</translation>
         <translation>Exécuter la commande lorsque le meilleur bloc change (%s dans cmd est remplacé par le hachage du bloc)</translation>
     </message>
     <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>Dans ce mode -genproclimit contrôle combien de blocs sont générés immédiatement.</translation>
+        <source>In this mode -genproclimit-cpu controls how many blocks are generated immediately.</source>
+        <translation>Dans ce mode -genproclimit-cpu contrôle combien de blocs sont générés immédiatement.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least 10 confirmations, you might need to wait a few minutes and try again.</source>

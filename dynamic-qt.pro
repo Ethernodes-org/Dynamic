@@ -1,6 +1,6 @@
 TEMPLATE = app
 TARGET = dynamic
-VERSION = 2.3.5.0
+VERSION = 2.4.0.0
 INCLUDEPATH += src \
                src/crypto \
                src/crypto/heavyhash \
@@ -376,7 +376,6 @@ HEADERS += \
     src/flat-database.h \
     src/governance-classes.h \
     src/governance-exceptions.h \
-    src/governance-misc.h \
     src/governance-object.h \
     src/governance-vote.h \
     src/governance-votedb.h \
@@ -646,4 +645,11 @@ FORMS += \
     src/qt/forms/dynodelist.ui \
     src/qt/forms/transactiondescdialog.ui \
     src/qt/forms/modaloverlay.ui \
-    src/qt/forms/miningpage.ui
+    src/qt/forms/miningpage.ui \
+    src/qt/forms/bdappage.ui \
+    src/qt/forms/bdapadduserdialog.ui \
+    src/qt/forms/bdapuserdetaildialog.ui \
+    src/qt/forms/bdapupdateaccountdialog.ui \
+    src/qt/forms/bdaplinkdetaildialog.ui \
+    src/qt/forms/bdapaddlinkdialog.ui \
+    src/qt/forms/mnemonicdialog.ui

@@ -1,4 +1,4 @@
-<TS language="fi" version="2.0">
+<TS language="fi" version="2.4">
 <context>
     <name>AddressBookPage</name>
     <message>
@@ -3176,6 +3176,10 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Minimimäärä</translation>
     </message>
     <message>
+        <source>Abandon transaction</source>
+        <translation>Abandon transaction</translation>
+    </message>
+    <message>
         <source>Copy address</source>
         <translation>Kopioi osoite</translation>
     </message>
@@ -3359,8 +3363,8 @@ Näillä toiminnoilla voit korjata korruptoituneen lohkoketjun tai puuttuvat/van
         <translation>Suorita käsky kun paras lohko muuttuu (%s cmd on korvattu lohko tarkisteella)</translation>
     </message>
     <message>
-        <source>In this mode -genproclimit controls how many blocks are generated immediately.</source>
-        <translation>Tässä moodissa -genproclimit ohjaa kuinka monta lohkoa luodaan välittömästi.</translation>
+        <source>In this mode -genproclimit-cpu controls how many blocks are generated immediately.</source>
+        <translation>Tässä moodissa -genproclimit-cpu ohjaa kuinka monta lohkoa luodaan välittömästi.</translation>
     </message>
     <message>
         <source>InstantSend requires inputs with at least 10 confirmations, you might need to wait a few minutes and try again.</source>
