@@ -51,9 +51,10 @@ then
       CUDA_CFLAGS+=" -I$with_cuda/include"
       CUDA_LDLIBS+=" -L$with_cuda/lib64"
    else
-      #AC_CHECK_FILE(/usr/local/cuda/,[CUDAPATH="/usr/local/cuda"],[])
-      #AC_CHECK_FILE(/usr/local/cuda/include,[CUDA_CFLAGS+=" -I/usr/local/cuda/include"],[CUDA_CFLAGS=""])
-      #AC_CHECK_FILE(/usr/local/cuda/lib64,[CUDA_LDLIBS+=" -L/usr/local/cuda/lib64"],[])
+      AX_NORMALIZE_PATH([with_cuda], ["/"])
+      CUDAPATH="$with_cuda"
+      CUDA_CFLAGS+=" -I$with_cuda/include"
+      CUDA_LDLIBS+=" -L$with_cuda/lib64"
    fi
    CUDA_LDLIBS+=" -lcuda -lcudart -lcublas"
 
